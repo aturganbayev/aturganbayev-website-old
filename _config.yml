@@ -24,13 +24,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Azamat Turganbayev"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "MS in Robotics Student, Bachelor's in Roboticsa & Mechatronics"
+  location         : "University of Minnesota"
+  employer         : # "Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "turga003@umn.edu" 
 
   # Academic websites
   academia         : # URL
