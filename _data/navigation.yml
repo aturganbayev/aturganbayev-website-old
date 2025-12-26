@@ -10,21 +10,23 @@
 main:
   #- title: "Publications"
   # url: /publications/
-
-  - title: "Talks"
-    url: /talks/    
-
- # - title: "Teaching"
- #  url: /teaching/    
+  - title: "Projects"
+    url: /projects/
     
   - title: "Experience"
     url: /portfolio/
+    
+  - title: "Talks"
+    url: /talks/    
+
+  - title: "CV"
+    url: /files/cv.pdf
+
+ # - title: "Teaching"
+ #  url: /teaching/    
         
   #- title: "Blog Posts"
   #  url: /year-archive/
-    
-  - title: "CV"
-    url: /files/cv.pdf
     
   # - title: "CV"
   #   url: /cv-json/
