@@ -9,7 +9,7 @@ author_profile: true
 # Work Experience
 
 <h2 style="margin-top: 30px; margin-bottom: 4px;">
-  Senior Research Assistant @ Center of Excellence in Medical Robotics & Research</a>
+  Senior Research Assistant @ <a href="https://www.linkedin.com/company/center-of-excellence-in-medical-robotics-and-research-cemrr/">Center of Excellence in Medical Robotics & Research</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
   <em>November 2023 – April 2025</em>
