@@ -1,0 +1,12 @@
+main:
+  - title: "Публикации"
+    url: /ru/publications/
+
+  - title: "Опыт"
+    url: /ru/experience/
+
+  - title: "Доклады"
+    url: /ru/talks/
+
+  - title: "CV"
+    url: /files/cv.pdf

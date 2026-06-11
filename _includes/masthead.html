@@ -6,17 +6,32 @@
       <nav id="site-nav" class="greedy-nav">
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
-            {% else %}
-              {% assign domain = base_path %}
-            {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
-          {% endfor %}
+          {% if page.lang == 'ru' %}
+            <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/ru/">{{ site.title }}</a></li>
+            {% for link in site.data.navigation_ru.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          {% else %}
+            <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+            {% for link in site.data.navigation.main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          {% endif %}
           <li id="theme-toggle" class="masthead__menu-item persist tail">
             <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+          </li>
+          <li class="masthead__menu-item persist">
+            <a role="button" onclick="toggleLanguage()" style="cursor:pointer;font-weight:600;font-size:0.85em;letter-spacing:0.05em;">{% if page.lang == 'ru' %}EN{% else %}RU{% endif %}</a>
           </li>
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -24,3 +39,14 @@
     </div>
   </div>
 </div>
+
+<script>
+function toggleLanguage() {
+  var path = window.location.pathname;
+  if (/^\/ru(\/|$)/.test(path)) {
+    window.location.href = path.replace(/^\/ru/, '') || '/';
+  } else {
+    window.location.href = '/ru' + path;
+  }
+}
+</script>
