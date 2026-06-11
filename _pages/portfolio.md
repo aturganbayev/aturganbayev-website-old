@@ -1,10 +1,11 @@
 ---
 layout: archive
-title: "Work Experience"
+title: "Experience"
 permalink: /experience/
 author_profile: true
 ---
 
+<h1 style="margin-top: 0; margin-bottom: 20px;">Work Experience</h1>
 
 <h2 style="margin-top: 30px; margin-bottom: 4px;">
   Senior Research Assistant @ <a href="https://www.linkedin.com/company/center-of-excellence-in-medical-robotics-and-research-cemrr/">Center of Excellence in Medical Robotics & Research</a>
@@ -38,5 +39,30 @@ author_profile: true
 
 <p style="margin-top: 0; margin-bottom: 10px;">
 As an Undergraduate Research Assistant I was focused on the biomechanical complexities of human-robot interaction. The research aims were to improve the efficacy of stroke recovery by designing 3D-printed miniature models that simulate human-robot mechanism coupling for shoulder rehabilitation. One of the key projects I was involved in includes the development of a scaled prototype that integrates a 2-DOF four-bar linkage with a 3-DOF cable-driven parallel mechanism to ensure precise alignment with the human shoulder’s center of rotation.
+</p>
+
+<hr style="margin: 40px 0 30px 0;">
+
+<h1 style="margin-top: 0; margin-bottom: 20px;">Education</h1>
+
+<h2 style="margin-top: 0; margin-bottom: 4px;">
+  MS in Robotics @ <a href="https://twin-cities.umn.edu">University of Minnesota</a>, Twin Cities
+</h2>
+<p style="margin-top: 0; margin-bottom: 4px;">
+  <em>September 2025 – December 2026</em> &nbsp;|&nbsp; Full Scholarship &nbsp;|&nbsp; GPA: 3.89/4.00
+</p>
+<p style="margin-top: 0; margin-bottom: 10px;">
+  Coursework: Machine Learning Fundamentals, Robotics, Robot Vision
+</p>
+
+<h2 style="margin-top: 20px; margin-bottom: 4px;">
+  BS in Robotics and Mechatronics @ <a href="https://nu.edu.kz/en">Nazarbayev University</a>, Astana, Kazakhstan
+</h2>
+<p style="margin-top: 0; margin-bottom: 4px;">
+  <em>August 2018 – June 2023</em>
+</p>
+<p style="margin-top: 0; margin-bottom: 10px;">
+  Graduation Project: Shoulder Rehabilitation Robotic Exoskeleton<br>
+  Coursework: Electromechanical Systems, Mechanical Design with CAD
 </p>
 
