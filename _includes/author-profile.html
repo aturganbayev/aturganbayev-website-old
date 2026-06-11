@@ -18,7 +18,7 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
     {% if page.lang == 'ru' %}
-      <p class="author__bio">Студент магистратуры по робототехнике, Университет Миннесоты<br>Бакалавр по робототехнике и мехатронике, Назарбаевский университет</p>
+      <p class="author__bio">Студент магистратуры по робототехнике, Университет Миннесоты<br>Бакалавр по робототехнике и мехатронике, Назарбаев Университет</p>
     {% elsif author.bio %}
       <p class="author__bio">{{ author.bio | newline_to_br }}</p>
     {% endif %}
