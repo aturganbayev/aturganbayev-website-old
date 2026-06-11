@@ -5,32 +5,29 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+<ol>
 
-{% include base_path %}
+<li style="margin-bottom: 16px;">
+  A. Niyetkaliyev, <strong>A. Turganbayev</strong>, M. Karasheva, R. Zhylkaidarov and Y. Turlybek,
+  <strong>"Exploring the Potential of Four-Bar Linkages in Robotic Exoskeletons: A Comprehensive Review,"</strong>
+  in <em>Journal of Mechanical Design</em>, vol. 147, no. 10, April 2025,
+  doi: <a href="https://asmedigitalcollection.asme.org/mechanicaldesign/article-abstract/147/10/100801/1213536/Exploring-the-Potential-of-Four-Bar-Linkages-in?redirectedFrom=fulltext">10.1115/1.4068107.</a>
+</li>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+<li style="margin-bottom: 16px;">
+  M. Karasheva, <strong>A. Turganbayev</strong>, A. Aimysheva and A. Niyetkaliyev,
+  <strong>"Design of a 3D Printed Miniature Model for Human-Robot Mechanism Coupling for Shoulder Rehabilitation,"</strong>
+  <em>2023 8th International Conference on Robotics and Automation Engineering (ICRAE)</em>,
+  Singapore, Singapore, 2023, pp. 58–65,
+  doi: <a href="https://ieeexplore.ieee.org/document/10458641">10.1109/ICRAE59816.2023.10458641.</a>
+</li>
 
+<li style="margin-bottom: 16px;">
+  S. Omirbayev, I. Issa, Z. Kuangaliyev, <strong>A. Turganbayev</strong> and A. Niyetkaliyev,
+  <strong>"The Use of Four-Bar Mechanisms in Robotic Exoskeletons,"</strong>
+  <em>2022 International Conference on Advanced Mechatronic Systems (ICAMechS)</em>,
+  Toyama, Japan, 2022, pp. 149–156,
+  doi: <a href="https://ieeexplore.ieee.org/document/10003280">10.1109/ICAMechS57222.2022.10003280.</a>
+</li>
 
-
+</ol>

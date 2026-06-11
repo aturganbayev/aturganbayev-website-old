@@ -4,6 +4,8 @@ title: "Technical Talks and Presentations"
 permalink: /talks/
 author_profile: true
 ---
+- **May 5, 2026 - Project Presentation:** "Printability of Different PEGDA Concentrations", *BMEN5361: 3D Bioprinting (Spring 2026)*, University of Minnesota, Twin Cities, MN
+
 - **Dec 9, 2025 - Project Presentation:** "Vision-Based ArUco Marker Navigation and Obstacle-Avoiding Algorithm for TurtleBot3 Burger Robot", *EE 5271: Robot Vision (Fall 2025)*, University of Minnesota, Twin Cities, MN
 
 - **Dec 1, 2025 - Project Presentation:** "Vision-Based ArUco Marker Navigation and Obstacle-Avoiding Algorithm for TurtleBot3 Burger Robot", *CSCI 5551: Introduction to Intelligent Robotic Systems (Fall 2025)*, University of Minnesota, Twin Cities, MN
