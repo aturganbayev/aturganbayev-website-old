@@ -35,6 +35,18 @@ author_profile: true
 <h1 style="margin-top: 0; margin-bottom: 20px;">Work Experience</h1>
 
 <h2 style="margin-top: 30px; margin-bottom: 4px;">
+  Research Assistant, <a href="https://tact.nu.edu.kz/">Tactile Robotics Laboratory</a>
+</h2>
+<p style="margin-top: 0; margin-bottom: 8px;">
+  <em>May 2026 – August 2026</em>
+</p>
+<ul style="margin-top: 0; margin-bottom: 10px;">
+  <li>Developed an automated tactile exploration pipeline for a UR5 robot arm, extracting surface geometry from a CAD model and calibrating it to the robot's coordinate frame via ICP for systematic surface contact mapping.</li>
+  <li>Implemented ICP-based hand-eye calibration achieving sub-5 mm mean registration error, enabling accurate autonomous contact generation across 3,000+ sampled surface points.</li>
+  <li>Programmed robot motion sequences using URScript over a raw TCP socket, employing joint-space interpolation for singularity-free transits and Cartesian linear motion for controlled surface pressing.</li>
+</ul>
+
+<h2 style="margin-top: 30px; margin-bottom: 4px;">
   Senior Research Assistant, <a href="https://cemrr.nu.edu.kz/en">Center of Excellence in Medical Robotics & Research</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
