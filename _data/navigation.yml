@@ -14,7 +14,7 @@ main:
   #   url: /projects/
     
   - title: "Experience"
-    url: /portfolio/
+    url: /experience/
     
   - title: "Talks"
     url: /talks/    
