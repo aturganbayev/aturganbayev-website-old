@@ -17,4 +17,4 @@ My research interests lie in robot manipulation, robotic perception, and robots 
 - **Robotic Perception and Manipulation**: Integrating vision systems with sensor fusion to enable robots to navigate and interact safely within dynamic human environments
 - **Robot Vision and Image Processing**: Developing robust algorithms for hazard detection and real-time reactive maneuvers
 
-Please feel free to reach me at [turga003@umn.edu](mailto:turga003@umn.edu).
+Please feel free to reach me at [azturganbayev@gmail.com](mailto:azturganbayev@gmail.com).
