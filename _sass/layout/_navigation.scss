@@ -260,6 +260,11 @@
     }
   }
 
+  // When hamburger button is visible, shift controls left to avoid overlap
+  &:has(> button:not(.hidden)) .masthead__right-controls {
+    right: 2.75rem;
+  }
+
   .masthead__right-controls {
     position: absolute;
     right: 0;
