@@ -10,7 +10,7 @@ author_profile: true
 <h1 style="margin-top: 0; margin-bottom: 20px;">Projects</h1>
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  Automated Flashlight Assembly with UR5
+  Automated Flashlight Assembly with UR5 &nbsp;<a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/ME5286_Flashlight_Assembly.pdf" style="font-size: 0.6em; font-weight: normal;">Report</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>March 2026</em> &nbsp;|&nbsp; ME 5286 – Robotics, University of Minnesota &nbsp;|&nbsp; Minneapolis, MN
@@ -24,9 +24,6 @@ author_profile: true
   <li>Implemented a multi-stroke pre-threading routine followed by torque-controlled final tightening, coordinated with a pneumatic chuck and optical sensor for stable part fixturing.</li>
   <li>Completed the full assembly sequence in 1 minute 39 seconds, within the 110-second requirement.</li>
 </ul>
-<p style="margin-top: 0; margin-bottom: 20px;">
-  <a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly">GitHub</a>
-</p>
 <div style="margin-top: 10px;">
   <iframe width="720" height="405" src="https://www.youtube.com/embed/OAarKcr0SdI" title="UR5 Flashlight Assembly" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
 </div>
@@ -34,7 +31,7 @@ author_profile: true
 <hr style="margin: 30px 0;">
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  TurtleBot3 Obstacle Avoidance &amp; ArUco Marker Navigation
+  TurtleBot3 Obstacle Avoidance &amp; ArUco Marker Navigation &nbsp;<a href="https://github.com/aturganbayev/CSCI5551-EE5271_Turtlebot_Navigation" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/CSCI5551_Final_Project.pdf" style="font-size: 0.6em; font-weight: normal;">Report</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Fall 2025</em> &nbsp;|&nbsp; CSCI 5551 / EE 5271 Final Project, University of Minnesota &nbsp;|&nbsp; Minneapolis, MN
@@ -48,9 +45,9 @@ author_profile: true
   <li>Implemented ArUco marker tracking and following: the <code>aruco_follower</code> node fuses camera-derived heading to the marker with LiDAR range measurements to drive the robot to a target distance while stopping when the marker leaves the camera's field of view.</li>
   <li>Validated both algorithms first in Gazebo simulation, then transferred them to the real robot with LiDAR noise filtering adjustments for reliable real-world performance.</li>
 </ul>
-<p style="margin-top: 0; margin-bottom: 20px;">
-  <a href="/files/CSCI5551_Final_Project.pdf">Report (PDF)</a>
-</p>
+<div style="margin-top: 10px;">
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/5Qi0RW_q2Dw" title="TurtleBot3 Obstacle Avoidance & ArUco Navigation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
 
 <hr style="margin: 30px 0;">
 

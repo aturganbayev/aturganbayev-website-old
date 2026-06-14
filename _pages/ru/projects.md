@@ -11,7 +11,7 @@ lang: ru
 <h1 style="margin-top: 0; margin-bottom: 20px;">Проекты</h1>
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  Автоматизированная сборка фонарика с помощью UR5
+  Автоматизированная сборка фонарика с помощью UR5 &nbsp;<a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/ME5286_Flashlight_Assembly.pdf" style="font-size: 0.6em; font-weight: normal;">Отчёт</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Март 2026</em> &nbsp;|&nbsp; ME 5286 – Робототехника, Университет Миннесоты &nbsp;|&nbsp; Миннеаполис, MN
@@ -25,9 +25,6 @@ lang: ru
   <li>Реализовал многоходовую процедуру предварительного завинчивания с последующим финальным затягиванием с контролем момента, скоординированную с пневматическим патроном и оптическим датчиком для надёжной фиксации деталей.</li>
   <li>Вся последовательность сборки выполнена за 1 минуту 39 секунд — в рамках требования в 110 секунд.</li>
 </ul>
-<p style="margin-top: 0; margin-bottom: 20px;">
-  <a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly">GitHub</a>
-</p>
 <div style="margin-top: 10px;">
   <iframe width="720" height="405" src="https://www.youtube.com/embed/OAarKcr0SdI" title="UR5 Flashlight Assembly" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
 </div>
@@ -35,7 +32,7 @@ lang: ru
 <hr style="margin: 30px 0;">
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  Обход препятствий и навигация по маркерам ArUco на TurtleBot3
+  Обход препятствий и навигация по маркерам ArUco на TurtleBot3 &nbsp;<a href="https://github.com/aturganbayev/CSCI5551-EE5271_Turtlebot_Navigation" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/CSCI5551_Final_Project.pdf" style="font-size: 0.6em; font-weight: normal;">Отчёт</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Осень 2025</em> &nbsp;|&nbsp; Финальный проект CSCI 5551 / EE 5271, Университет Миннесоты &nbsp;|&nbsp; Миннеаполис, MN
@@ -49,9 +46,9 @@ lang: ru
   <li>Реализовал отслеживание и следование по маркерам ArUco: узел <code>aruco_follower</code> совмещает визуальное направление на маркер с данными дальности LiDAR для движения робота на заданное расстояние к цели, останавливаясь при выходе маркера из поля зрения камеры.</li>
   <li>Протестировал оба алгоритма сначала в симуляции Gazebo, затем перенёс на реального робота с настройкой фильтрации шума LiDAR для надёжной работы в реальных условиях.</li>
 </ul>
-<p style="margin-top: 0; margin-bottom: 20px;">
-  <a href="/files/CSCI5551_Final_Project.pdf">Отчёт (PDF)</a>
-</p>
+<div style="margin-top: 10px;">
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/5Qi0RW_q2Dw" title="TurtleBot3 Obstacle Avoidance & ArUco Navigation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
 
 <hr style="margin: 30px 0;">
 
