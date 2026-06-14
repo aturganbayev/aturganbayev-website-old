@@ -38,7 +38,7 @@ author_profile: true
   Research Assistant, <a href="https://tact.nu.edu.kz/">Tactile Robotics Laboratory</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
-  <em>May 2026 – August 2026</em>
+  <em>May 2026 – August 2026</em> &nbsp;|&nbsp; Astana, Kazakhstan
 </p>
 <ul style="margin-top: 0; margin-bottom: 10px;">
   <li>Developed an automated tactile exploration pipeline for a UR5 robot arm, extracting surface geometry from a CAD model and calibrating it to the robot's coordinate frame via ICP for systematic surface contact mapping.</li>
@@ -50,7 +50,7 @@ author_profile: true
   Senior Research Assistant, <a href="https://cemrr.nu.edu.kz/en">Center of Excellence in Medical Robotics & Research</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
-  <em>November 2023 – April 2025</em>
+  <em>November 2023 – April 2025</em> &nbsp;|&nbsp; Astana, Kazakhstan
 </p>
 <ul style="margin-top: 0; margin-bottom: 10px;">
   <li>Conducted advanced research on robotic-assisted rehabilitation, with a focus on enhancing upper limb recovery for stroke survivors.</li>
@@ -62,7 +62,7 @@ author_profile: true
   Robotics Laboratory Assistant, <a href="https://nu.edu.kz/en">Nazarbayev University</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
-  <em>November 2023 – July 2025</em>
+  <em>November 2023 – July 2025</em> &nbsp;|&nbsp; Astana, Kazakhstan
 </p>
 <ul style="margin-top: 0; margin-bottom: 10px;">
   <li>Supported advanced research and education in robotics through meticulous laboratory management and technical coordination.</li>
@@ -74,7 +74,7 @@ author_profile: true
   Undergraduate Research Assistant, <a href="https://nu.edu.kz/en">Nazarbayev University</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
-  <em>April 2022 – November 2023</em>
+  <em>April 2022 – November 2023</em> &nbsp;|&nbsp; Astana, Kazakhstan
 </p>
 <ul style="margin-top: 0; margin-bottom: 10px;">
   <li>Investigated biomechanical complexities of human-robot interaction to improve the efficacy of stroke recovery.</li>
