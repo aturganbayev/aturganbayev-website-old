@@ -28,9 +28,9 @@ lang: ru
 <p style="margin-top: 0; margin-bottom: 20px;">
   <a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly">GitHub</a>
 </p>
-<video controls style="width: 100%; max-width: 720px; margin-top: 8px; display: block;">
-  <source src="/files/Azamat_Turganbayev_assembly_video.mp4" type="video/mp4">
-</video>
+<div style="margin-top: 10px;">
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/OAarKcr0SdI" title="UR5 Flashlight Assembly" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
 
 <hr style="margin: 30px 0;">
 
