@@ -38,7 +38,7 @@ author_profile: true
   Research Assistant, <a href="https://tact.nu.edu.kz/">Tactile Robotics Laboratory</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
-  <em>May 2026 – August 2026</em> &nbsp;|&nbsp; Astana, Kazakhstan
+  <em>May 2026 – Present</em> &nbsp;|&nbsp; Astana, Kazakhstan
 </p>
 <ul style="margin-top: 0; margin-bottom: 10px;">
   <li>Developed an automated tactile exploration pipeline for a UR5 robot arm, extracting surface geometry from a CAD model and calibrating it to the robot's coordinate frame via ICP for systematic surface contact mapping.</li>

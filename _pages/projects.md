@@ -10,6 +10,27 @@ author_profile: true
 <h1 style="margin-top: 0; margin-bottom: 20px;">Projects</h1>
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
+  Tactile Surface Exploration with UR5 &nbsp;<a href="https://github.com/aturganbayev/tactile_UR5" style="font-size: 0.6em; font-weight: normal;">GitHub</a>
+</h2>
+<p style="margin-top: 0; margin-bottom: 4px;">
+  <em>May 2026 – Present</em> &nbsp;|&nbsp; <a href="https://tact.nu.edu.kz/">Tactile Robotics Laboratory</a> &nbsp;|&nbsp; Astana, Kazakhstan
+</p>
+<p style="margin-top: 0; margin-bottom: 8px;">
+  <strong>Tools &amp; Technologies:</strong> UR5, URScript, Python, trimesh, NumPy, SciPy (ICP), pandas, Matplotlib, Docker (URSim)
+</p>
+<ul style="margin-top: 0; margin-bottom: 8px;">
+  <li>Built an end-to-end pipeline for automated tactile exploration of a silicone cone with a UR5 collaborative arm, taking surface geometry from a CAD model all the way to executed touch sequences on both simulated and physical robots.</li>
+  <li>Sampled 3,000 surface points with normals from the cone STL using <code>trimesh</code>, then aligned the point cloud to the robot base frame via Iterative Closest Point (ICP) calibration, validating the fit to under 5&nbsp;mm mean error against physically recorded touch points.</li>
+  <li>Generated three touch-pose strategies — full surface coverage, random upper-surface points, and vertical strips with height-scaled orientation tilt (up to 15°) — to avoid tool-holder collisions during lower-surface contacts.</li>
+  <li>Streamed URScript approach-press-retract sequences over port 30003, using joint-space <code>movej</code> for transits and linear <code>movel</code> for pressing, with dual-mode operation supporting both URSim simulation and the real UR5 at a safe 0.05&nbsp;m/s contact speed.</li>
+</ul>
+<div style="margin-top: 10px;">
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/ED0S0Vk0w-s" title="Tactile Surface Exploration with UR5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
+
+<hr style="margin: 30px 0;">
+
+<h2 style="margin-top: 0; margin-bottom: 4px;">
   Automated Flashlight Assembly with UR5 &nbsp;<a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/ME5286_Flashlight_Assembly.pdf" style="font-size: 0.6em; font-weight: normal;">Report</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">

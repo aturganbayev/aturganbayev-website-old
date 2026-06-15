@@ -11,6 +11,27 @@ lang: ru
 <h1 style="margin-top: 0; margin-bottom: 20px;">Проекты</h1>
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
+  Тактильное исследование поверхности с помощью UR5 &nbsp;<a href="https://github.com/aturganbayev/tactile_UR5" style="font-size: 0.6em; font-weight: normal;">GitHub</a>
+</h2>
+<p style="margin-top: 0; margin-bottom: 4px;">
+  <em>Май 2026 – настоящее время</em> &nbsp;|&nbsp; <a href="https://tact.nu.edu.kz/">Лаборатория тактильной робототехники</a> &nbsp;|&nbsp; Астана, Казахстан
+</p>
+<p style="margin-top: 0; margin-bottom: 8px;">
+  <strong>Инструменты и технологии:</strong> UR5, URScript, Python, trimesh, NumPy, SciPy (ICP), pandas, Matplotlib, Docker (URSim)
+</p>
+<ul style="margin-top: 0; margin-bottom: 8px;">
+  <li>Создал сквозной пайплайн для автоматического тактильного исследования силиконового конуса с помощью коллаборативного робота UR5 — от геометрии поверхности из CAD-модели до выполнения последовательностей касаний как на симулированном, так и на реальном роботе.</li>
+  <li>Сэмплировал 3000 точек поверхности с нормалями из STL-модели конуса с помощью <code>trimesh</code>, затем совместил облако точек с базовым фреймом робота методом ICP (Iterative Closest Point), проверив точность совмещения до уровня менее 5&nbsp;мм средней ошибки относительно физически записанных точек касания.</li>
+  <li>Сгенерировал три стратегии поз касания — полное покрытие поверхности, случайные точки верхней части и вертикальные полосы с масштабируемым по высоте наклоном ориентации (до 15°) — для предотвращения столкновений держателя инструмента при касаниях нижней части поверхности.</li>
+  <li>Передавал URScript-последовательности «подход–нажатие–отвод» по порту 30003, используя движение в пространстве суставов <code>movej</code> для переходов и линейное <code>movel</code> для нажатия, с поддержкой двух режимов: симуляции URSim и реального UR5 на безопасной скорости контакта 0,05&nbsp;м/с.</li>
+</ul>
+<div style="margin-top: 10px;">
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/ED0S0Vk0w-s" title="Tactile Surface Exploration with UR5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+</div>
+
+<hr style="margin: 30px 0;">
+
+<h2 style="margin-top: 0; margin-bottom: 4px;">
   Автоматизированная сборка фонарика с помощью UR5 &nbsp;<a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/ME5286_Flashlight_Assembly.pdf" style="font-size: 0.6em; font-weight: normal;">Отчёт</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
