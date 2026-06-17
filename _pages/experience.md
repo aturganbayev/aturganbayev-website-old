@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Experience"
+description: "Education and research experience of Azamat Turganbayev — MS in Robotics at the University of Minnesota, with robotics research at Nazarbayev University, CEMRR, and the Tactile Robotics Laboratory."
 permalink: /experience/
 author_profile: true
 ---

@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Technical Talks and Presentations"
+description: "Technical talks and presentations by Azamat Turganbayev on robot vision, robot navigation, and rehabilitation robotics."
 permalink: /talks/
 author_profile: true
 ---

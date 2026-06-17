@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Projects"
+description: "Robotics projects by Azamat Turganbayev — UR5 tactile surface exploration, automated flashlight assembly, TurtleBot3 obstacle avoidance and ArUco navigation, and a 5-DOF shoulder rehabilitation exoskeleton."
 permalink: /projects/
 author_profile: true
 ---
