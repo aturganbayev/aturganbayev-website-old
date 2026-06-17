@@ -8,6 +8,51 @@ lang: ru
 
 <style>h1.page__title { display: none; }</style>
 
+<style>
+.exo-gallery { position: relative; width: 100%; max-width: 405px; margin: 0 auto; }
+.exo-track {
+  display: flex; overflow-x: auto; aspect-ratio: 3 / 4;
+  scroll-snap-type: x mandatory; border-radius: 6px;
+  scrollbar-width: none; -ms-overflow-style: none; -webkit-overflow-scrolling: touch;
+  background: rgba(127, 127, 127, 0.08);
+}
+.exo-track::-webkit-scrollbar { display: none; }
+.exo-slide {
+  flex: 0 0 100%; width: 100%; height: 100%; object-fit: cover;
+  scroll-snap-align: center; display: block; cursor: zoom-in;
+}
+.exo-arrow {
+  position: absolute; top: 50%; transform: translateY(-50%); z-index: 2;
+  width: 38px; height: 38px; border: none; border-radius: 50%;
+  background: rgba(0, 0, 0, 0.45); color: #fff; font-size: 18px; line-height: 1;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; opacity: 0.85; transition: opacity 0.2s;
+}
+.exo-arrow:hover { opacity: 1; }
+.exo-prev { left: 8px; }
+.exo-next { right: 8px; }
+.exo-thumbs { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.exo-thumb {
+  padding: 0; border: 2px solid transparent; border-radius: 4px;
+  background: none; line-height: 0; overflow: hidden; cursor: pointer; opacity: 0.65;
+  transition: opacity 0.2s, border-color 0.2s;
+}
+.exo-thumb img { width: 54px; height: 54px; object-fit: cover; display: block; }
+.exo-thumb:hover { opacity: 1; }
+.exo-thumb.active { border-color: var(--global-link-color, #2a7ae2); opacity: 1; }
+.exo-lightbox {
+  position: fixed; inset: 0; z-index: 9999; padding: 20px;
+  display: flex; align-items: center; justify-content: center;
+  background: rgba(0, 0, 0, 0.9); cursor: zoom-out;
+}
+.exo-lightbox[hidden] { display: none; }
+.exo-lightbox-img { max-width: 95%; max-height: 95%; object-fit: contain; border-radius: 4px; }
+.exo-lightbox-close {
+  position: absolute; top: 12px; right: 22px; color: #fff;
+  font-size: 40px; line-height: 1; cursor: pointer;
+}
+</style>
+
 <h1 style="margin-top: 0; margin-bottom: 20px;">Проекты</h1>
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
@@ -74,7 +119,7 @@ lang: ru
 <hr style="margin: 30px 0;">
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  Реабилитационный экзоскелет плечевого сустава
+  Реабилитационный экзоскелет плечевого сустава &nbsp;<a href="https://cemrr.nu.edu.kz/ru/news/9" style="font-size: 0.6em; font-weight: normal;">Новости</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Апрель 2022 – Апрель 2025</em> &nbsp;|&nbsp; Назарбаев Университет &amp; <a href="https://cemrr.nu.edu.kz/en">CEMRR</a> &nbsp;|&nbsp; Астана, Казахстан
@@ -88,3 +133,81 @@ lang: ru
   <li>Создал полностью собранный носимый экзоскелет для интенсивных задачно-специфичных упражнений пациентов после инсульта, объединив механическое проектирование с клиническими требованиями реабилитации.</li>
   <li>Работа началась как дипломный проект бакалавриата в Назарбаев Университете и была расширена до полнофункционального устройства в Центре передовых исследований в области медицинской робототехники (CEMRR).</li>
 </ul>
+<div class="exo-gallery" style="margin-top: 10px;">
+  <div class="exo-track">
+    <img class="exo-slide" src="/images/exoskeleton/1.jpg" alt="Реабилитационный экзоскелет плечевого сустава, фото 1 из 4" loading="lazy">
+    <img class="exo-slide" src="/images/exoskeleton/2.jpg" alt="Реабилитационный экзоскелет плечевого сустава, фото 2 из 4" loading="lazy">
+    <img class="exo-slide" src="/images/exoskeleton/3.jpg" alt="Реабилитационный экзоскелет плечевого сустава, фото 3 из 4" loading="lazy">
+    <img class="exo-slide" src="/images/exoskeleton/4.jpg" alt="Реабилитационный экзоскелет плечевого сустава, фото 4 из 4" loading="lazy">
+  </div>
+  <button type="button" class="exo-arrow exo-prev" aria-label="Предыдущее фото">&#10094;</button>
+  <button type="button" class="exo-arrow exo-next" aria-label="Следующее фото">&#10095;</button>
+  <div class="exo-thumbs"></div>
+  <div class="exo-lightbox" hidden>
+    <span class="exo-lightbox-close" aria-hidden="true">&times;</span>
+    <img class="exo-lightbox-img" src="" alt="">
+  </div>
+</div>
+
+<script>
+(function () {
+  function initGallery(gallery) {
+    var track = gallery.querySelector('.exo-track');
+    var slides = [].slice.call(track.querySelectorAll('.exo-slide'));
+    var thumbsWrap = gallery.querySelector('.exo-thumbs');
+    var lightbox = gallery.querySelector('.exo-lightbox');
+    var lightboxImg = lightbox ? lightbox.querySelector('.exo-lightbox-img') : null;
+    var current = 0;
+
+    slides.forEach(function (img, i) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'exo-thumb' + (i === 0 ? ' active' : '');
+      b.setAttribute('aria-label', 'Перейти к фото ' + (i + 1));
+      var t = document.createElement('img');
+      t.src = img.src; t.alt = '';
+      b.appendChild(t);
+      b.addEventListener('click', function () { goTo(i); });
+      thumbsWrap.appendChild(b);
+    });
+    var thumbs = [].slice.call(thumbsWrap.children);
+
+    function goTo(i) {
+      i = Math.max(0, Math.min(slides.length - 1, i));
+      track.scrollTo({ left: i * track.clientWidth, behavior: 'smooth' });
+    }
+    function setActive(i) {
+      if (i === current) return;
+      current = i;
+      thumbs.forEach(function (d, j) { d.classList.toggle('active', j === i); });
+    }
+
+    var raf;
+    track.addEventListener('scroll', function () {
+      if (raf) cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(function () {
+        setActive(Math.round(track.scrollLeft / track.clientWidth));
+      });
+    });
+    gallery.querySelector('.exo-prev').addEventListener('click', function () { goTo((current - 1 + slides.length) % slides.length); });
+    gallery.querySelector('.exo-next').addEventListener('click', function () { goTo((current + 1) % slides.length); });
+
+    if (lightbox && lightboxImg) {
+      slides.forEach(function (img) {
+        img.addEventListener('click', function () {
+          lightboxImg.src = img.src;
+          lightboxImg.alt = img.alt;
+          lightbox.hidden = false;
+        });
+      });
+      lightbox.addEventListener('click', function () { lightbox.hidden = true; });
+    }
+  }
+  function init() { [].slice.call(document.querySelectorAll('.exo-gallery')).forEach(initGallery); }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
