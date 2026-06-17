@@ -64,6 +64,11 @@
     margin: 0 0 $indent-var;
     text-align: justify;
 
+    /* justified text stretches into large word gaps on narrow screens */
+    @include breakpoint(max-width $small) {
+      text-align: left;
+    }
+
     /* sibling indentation*/
     @if $paragraph-indent == true {
       & + p {
