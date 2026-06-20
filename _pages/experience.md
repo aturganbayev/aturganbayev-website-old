@@ -21,7 +21,7 @@ author_profile: true
 </p>
 
 <h2 style="margin-top: 20px; margin-bottom: 4px;">
-  BS in Robotics and Mechatronics, <a href="https://nu.edu.kz/en">Nazarbayev University</a>, Astana, Kazakhstan
+  BS in Robotics and Mechatronics, <a href="https://seds.nu.edu.kz/bachelor_in_re">Nazarbayev University</a>, Astana, Kazakhstan
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>August 2018 – June 2023</em> &nbsp;|&nbsp; Full Scholarship
@@ -60,7 +60,7 @@ author_profile: true
 </ul>
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  Robotics Laboratory Assistant, <a href="https://nu.edu.kz/en">Nazarbayev University</a>
+  Robotics Laboratory Assistant, <a href="https://seds.nu.edu.kz/sedslaboratories">Nazarbayev University</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
   <em>November 2023 – July 2025</em> &nbsp;|&nbsp; Astana, Kazakhstan
@@ -72,7 +72,7 @@ author_profile: true
 </ul>
 
 <h2 style="margin-top: 30px; margin-bottom: 4px;">
-  Undergraduate Research Assistant, <a href="https://nu.edu.kz/en">Nazarbayev University</a>
+  Undergraduate Research Assistant, <a href="https://seds.nu.edu.kz/bachelor_in_re">Nazarbayev University</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
   <em>April 2022 – November 2023</em> &nbsp;|&nbsp; Astana, Kazakhstan

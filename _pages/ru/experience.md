@@ -22,7 +22,7 @@ lang: ru
 </p>
 
 <h2 style="margin-top: 20px; margin-bottom: 4px;">
-  Бакалавриат по Робототехнике и Мехатронике, <a href="https://nu.edu.kz/ru">Назарбаев Университет</a>, Астана, Казахстан
+  Бакалавриат по Робототехнике и Мехатронике, <a href="https://seds.nu.edu.kz/ru/bachelor_in_re">Назарбаев Университет</a>, Астана, Казахстан
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Август 2018 – Июнь 2023</em> &nbsp;|&nbsp; Полная стипендия
@@ -61,7 +61,7 @@ lang: ru
 </ul>
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  Ассистент робототехнической лаборатории, <a href="https://nu.edu.kz/en">Назарбаев Университет</a>
+  Ассистент робототехнической лаборатории, <a href="https://seds.nu.edu.kz/ru/sedslaboratories">Назарбаев Университет</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
   <em>Ноябрь 2023 – Июль 2025</em> &nbsp;|&nbsp; Астана, Казахстан
@@ -73,7 +73,7 @@ lang: ru
 </ul>
 
 <h2 style="margin-top: 30px; margin-bottom: 4px;">
-  Научный ассистент (бакалавриат), <a href="https://nu.edu.kz/en">Назарбаев Университет</a>
+  Научный ассистент (бакалавриат), <a href="https://seds.nu.edu.kz/ru/bachelor_in_re">Назарбаев Университет</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 8px;">
   <em>Апрель 2022 – Ноябрь 2023</em> &nbsp;|&nbsp; Астана, Казахстан
