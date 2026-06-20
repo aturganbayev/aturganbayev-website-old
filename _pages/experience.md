@@ -42,9 +42,9 @@ author_profile: true
   <em>May 2026 – Present</em> &nbsp;|&nbsp; Astana, Kazakhstan
 </p>
 <ul style="margin-top: 0; margin-bottom: 10px;">
-  <li>Developed an automated tactile exploration pipeline for a UR5 robot arm, extracting surface geometry from a CAD model and calibrating it to the robot's coordinate frame via ICP for systematic surface contact mapping.</li>
-  <li>Implemented ICP-based hand-eye calibration achieving sub-5 mm mean registration error, enabling accurate autonomous contact generation across 3,000+ sampled surface points.</li>
-  <li>Programmed robot motion sequences using URScript over a raw TCP socket, employing joint-space interpolation for singularity-free transits and Cartesian linear motion for controlled surface pressing.</li>
+  <li>Developed an automated tactile exploration pipeline for a UR5 robot arm, extracting surface geometry from a CAD model and calibrating it to the robot's coordinate frame via an axis-constrained ICP fit for systematic surface contact mapping.</li>
+  <li>Achieved ~2.2 mm RMS calibration accuracy by pinning the cone's axis vertical during ICP (avoiding a spurious tilt from apex-clustered touch points), enabling accurate autonomous contact generation across 3,000+ sampled surface points.</li>
+  <li>Synchronized ATI Nano17 force sensor readings with the UR5's real-time TCP pose stream via NI-DAQ to auto-detect and log peak contact forces for each press.</li>
 </ul>
 
 <h2 style="margin-top: 30px; margin-bottom: 4px;">

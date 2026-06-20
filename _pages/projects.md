@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Projects"
-description: "Robotics projects by Azamat Turganbayev — UR5 tactile surface exploration, automated flashlight assembly, TurtleBot3 obstacle avoidance and ArUco navigation, and a 5-DOF shoulder rehabilitation exoskeleton."
+description: "Robotics projects by Azamat Turganbayev: UR5 tactile surface exploration, automated flashlight assembly, TurtleBot3 obstacle avoidance and ArUco navigation, and a 5-DOF shoulder rehabilitation exoskeleton."
 permalink: /projects/
 author_profile: true
 ---
@@ -62,13 +62,13 @@ author_profile: true
   <em>May 2026 – Present</em> &nbsp;|&nbsp; <a href="https://tact.nu.edu.kz/">Tactile Robotics Laboratory</a> &nbsp;|&nbsp; Astana, Kazakhstan
 </p>
 <p style="margin-top: 0; margin-bottom: 8px;">
-  <strong>Tools &amp; Technologies:</strong> UR5, URScript, Python, trimesh, NumPy, SciPy (ICP), pandas, Matplotlib, Docker (URSim)
+  <strong>Tools &amp; Technologies:</strong> UR5, URScript, Python, trimesh, NumPy, SciPy (ICP), pandas, Matplotlib, Docker (URSim), ATI Nano17 force sensor, NI-DAQ
 </p>
 <ul style="margin-top: 0; margin-bottom: 8px;">
-  <li>Built an end-to-end pipeline for automated tactile exploration of a silicone cone with a UR5 collaborative arm, taking surface geometry from a CAD model all the way to executed touch sequences on both simulated and physical robots.</li>
-  <li>Sampled 3,000 surface points with normals from the cone STL using <code>trimesh</code>, then aligned the point cloud to the robot base frame via Iterative Closest Point (ICP) calibration, validating the fit to under 5&nbsp;mm mean error against physically recorded touch points.</li>
-  <li>Generated three touch-pose strategies — full surface coverage, random upper-surface points, and vertical strips with height-scaled orientation tilt (up to 15°) — to avoid tool-holder collisions during lower-surface contacts.</li>
-  <li>Streamed URScript approach-press-retract sequences over port 30003, using joint-space <code>movej</code> for transits and linear <code>movel</code> for pressing, with dual-mode operation supporting both URSim simulation and the real UR5 at a safe 0.05&nbsp;m/s contact speed.</li>
+  <li>Built an end-to-end pipeline for automated tactile exploration of a silicone cone with a UR5 collaborative arm, from CAD-derived surface geometry to executed touch sequences with synchronized contact-force recording on both simulated and physical robots.</li>
+  <li>Sampled 3,000 surface points with normals from the cone STL using <code>trimesh</code>, then calibrated to the robot base frame with an axis-constrained, translation-only ICP fit (cone axis pinned vertical to avoid a spurious tilt from apex-clustered touch points), reaching ~2.2&nbsp;mm RMS alignment error.</li>
+  <li>Generated full-surface and 15-strip vertical touch-pose patterns with height-scaled orientation tilt (5°–15°) for tool clearance, then executed them via a custom Python UR5 IK solver (needed because the controller's single-seed IK fails to converge for poses spread around the cone), streaming URScript approach-press-retract sequences over a raw TCP socket.</li>
+  <li>Synchronized ATI Nano17 force readings with the UR5's real-time TCP pose stream via NI-DAQ, auto-detecting each press and logging its peak force and pose for offline analysis.</li>
 </ul>
 <div style="margin-top: 10px;">
   <iframe width="720" height="405" src="https://www.youtube.com/embed/ED0S0Vk0w-s" title="Tactile Surface Exploration with UR5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
@@ -108,7 +108,7 @@ author_profile: true
 </p>
 <ul style="margin-top: 0; margin-bottom: 8px;">
   <li>Developed a LiDAR-based obstacle avoidance pipeline on TurtleBot3 Burger using two ROS2 nodes: <code>obstacle_detector</code> (monitors the front LiDAR sector and publishes Boolean obstacle topics) and <code>obstacle_avoidance</code> (overrides velocity commands to turn and back away when an obstacle is within 30 cm).</li>
-  <li>Integrated a Raspberry Pi camera onto TurtleBot3 Burger — a non-standard hardware addition — calibrated its intrinsic parameters using a ROS2 checkerboard calibration package, and added a static TF frame to correctly represent the camera pose relative to the robot base link.</li>
+  <li>Integrated a Raspberry Pi camera onto TurtleBot3 Burger, a non-standard hardware addition, calibrated its intrinsic parameters using a ROS2 checkerboard calibration package, and added a static TF frame to correctly represent the camera pose relative to the robot base link.</li>
   <li>Implemented ArUco marker tracking and following: the <code>aruco_follower</code> node fuses camera-derived heading to the marker with LiDAR range measurements to drive the robot to a target distance while stopping when the marker leaves the camera's field of view.</li>
   <li>Validated both algorithms first in Gazebo simulation, then transferred them to the real robot with LiDAR noise filtering adjustments for reliable real-world performance.</li>
 </ul>
@@ -128,7 +128,7 @@ author_profile: true
   <strong>Tools &amp; Technologies:</strong> CAD, 3D printing, four-bar linkage design, cable-driven parallel mechanisms, mechanical prototyping
 </p>
 <ul style="margin-top: 0; margin-bottom: 8px;">
-  <li>Designed and built a 5-DOF hybrid robotic shoulder exoskeleton — a 2-DOF rotational four-bar linkage combined with a 3-DOF cable-driven parallel mechanism — enabling full-range shoulder rotations while preserving alignment with the human glenohumeral joint center of rotation.</li>
+  <li>Designed and built a 5-DOF hybrid robotic shoulder exoskeleton, a 2-DOF rotational four-bar linkage combined with a 3-DOF cable-driven parallel mechanism, enabling full-range shoulder rotations while preserving alignment with the human glenohumeral joint center of rotation.</li>
   <li>Developed 3D-printed miniature prototype models to validate human-robot mechanism coupling before scaling up to the full device.</li>
   <li>Completed a fully assembled, wearable exoskeleton targeting intensive task-specific exercises for stroke survivors, bridging the gap between mechanical design and clinical rehabilitation requirements.</li>
   <li>Work originated as a BS graduation project at Nazarbayev University and was extended into a fully functional device at the Center of Excellence in Medical Robotics &amp; Research (CEMRR).</li>
