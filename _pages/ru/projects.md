@@ -120,7 +120,7 @@ lang: ru
 <hr style="margin: 30px 0;">
 
 <h2 id="exoskeleton" style="margin-top: 0; margin-bottom: 4px;">
-  Реабилитационный экзоскелет плечевого сустава &nbsp;<a href="https://cemrr.nu.edu.kz/ru/news/9" style="font-size: 0.6em; font-weight: normal;">Новости</a>
+  Реабилитационный экзоскелет плечевого сустава &nbsp;<a href="https://cemrr.nu.edu.kz/ru/news/9" style="font-size: 0.6em; font-weight: normal;">Новости</a> &nbsp;<a href="https://www.youtube.com/watch?v=BF6AlbPFsx4&t=535s" style="font-size: 0.6em; font-weight: normal;">Интервью</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Сентябрь 2023 – Апрель 2025</em> &nbsp;|&nbsp; Назарбаев Университет &amp; <a href="https://cemrr.nu.edu.kz/en">CEMRR</a> &nbsp;|&nbsp; Астана, Казахстан

@@ -119,7 +119,7 @@ author_profile: true
 <hr style="margin: 30px 0;">
 
 <h2 id="exoskeleton" style="margin-top: 0; margin-bottom: 4px;">
-  Shoulder Rehabilitation Robotic Exoskeleton &nbsp;<a href="https://cemrr.nu.edu.kz/en/news/9" style="font-size: 0.6em; font-weight: normal;">News</a>
+  Shoulder Rehabilitation Robotic Exoskeleton &nbsp;<a href="https://cemrr.nu.edu.kz/en/news/9" style="font-size: 0.6em; font-weight: normal;">News</a> &nbsp;<a href="https://www.youtube.com/watch?v=BF6AlbPFsx4&t=535s" style="font-size: 0.6em; font-weight: normal;">Interview</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>September 2023 – April 2025</em> &nbsp;|&nbsp; Nazarbayev University &amp; <a href="https://cemrr.nu.edu.kz/en">CEMRR</a> &nbsp;|&nbsp; Astana, Kazakhstan
