@@ -55,7 +55,7 @@ author_profile: true
 
 <h1 style="margin-top: 0; margin-bottom: 20px;">Projects</h1>
 
-<h2 style="margin-top: 0; margin-bottom: 4px;">
+<h2 id="tactile-ur5" style="margin-top: 0; margin-bottom: 4px;">
   Tactile Surface Exploration with UR5 &nbsp;<a href="https://github.com/aturganbayev/tactile_UR5" style="font-size: 0.6em; font-weight: normal;">GitHub</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
@@ -118,7 +118,7 @@ author_profile: true
 
 <hr style="margin: 30px 0;">
 
-<h2 style="margin-top: 0; margin-bottom: 4px;">
+<h2 id="exoskeleton" style="margin-top: 0; margin-bottom: 4px;">
   Shoulder Rehabilitation Robotic Exoskeleton &nbsp;<a href="https://cemrr.nu.edu.kz/en/news/9" style="font-size: 0.6em; font-weight: normal;">News</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">

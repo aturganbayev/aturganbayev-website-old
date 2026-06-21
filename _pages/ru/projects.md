@@ -56,7 +56,7 @@ lang: ru
 
 <h1 style="margin-top: 0; margin-bottom: 20px;">Проекты</h1>
 
-<h2 style="margin-top: 0; margin-bottom: 4px;">
+<h2 id="tactile-ur5" style="margin-top: 0; margin-bottom: 4px;">
   Тактильное исследование поверхности с помощью UR5 &nbsp;<a href="https://github.com/aturganbayev/tactile_UR5" style="font-size: 0.6em; font-weight: normal;">GitHub</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
@@ -119,7 +119,7 @@ lang: ru
 
 <hr style="margin: 30px 0;">
 
-<h2 style="margin-top: 0; margin-bottom: 4px;">
+<h2 id="exoskeleton" style="margin-top: 0; margin-bottom: 4px;">
   Реабилитационный экзоскелет плечевого сустава &nbsp;<a href="https://cemrr.nu.edu.kz/ru/news/9" style="font-size: 0.6em; font-weight: normal;">Новости</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
