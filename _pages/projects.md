@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Projects"
-description: "Robotics projects by Azamat Turganbayev: UR5 tactile surface exploration, automated flashlight assembly, TurtleBot3 obstacle avoidance and ArUco navigation, and a 5-DOF shoulder rehabilitation exoskeleton."
+description: "Robotics projects by Azamat Turganbayev: UR5 tactile surface exploration, automated flashlight assembly, TurtleBot3 obstacle avoidance and ArUco navigation, a 5-DOF shoulder rehabilitation exoskeleton, and its 3D-printed miniature precursor mechanism."
 permalink: /projects/
 author_profile: true
 ---
@@ -122,7 +122,7 @@ author_profile: true
   Shoulder Rehabilitation Robotic Exoskeleton &nbsp;<a href="https://cemrr.nu.edu.kz/en/news/9" style="font-size: 0.6em; font-weight: normal;">News</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
-  <em>April 2022 – April 2025</em> &nbsp;|&nbsp; Nazarbayev University &amp; <a href="https://cemrr.nu.edu.kz/en">CEMRR</a> &nbsp;|&nbsp; Astana, Kazakhstan
+  <em>September 2023 – April 2025</em> &nbsp;|&nbsp; Nazarbayev University &amp; <a href="https://cemrr.nu.edu.kz/en">CEMRR</a> &nbsp;|&nbsp; Astana, Kazakhstan
 </p>
 <p style="margin-top: 0; margin-bottom: 8px;">
   <strong>Tools &amp; Technologies:</strong> CAD, 3D printing, four-bar linkage design, cable-driven parallel mechanisms, mechanical prototyping
@@ -139,6 +139,38 @@ author_profile: true
     <img class="exo-slide" src="/images/exoskeleton/2.jpg" alt="Shoulder rehabilitation exoskeleton, photo 2 of 4" loading="lazy">
     <img class="exo-slide" src="/images/exoskeleton/3.jpg" alt="Shoulder rehabilitation exoskeleton, photo 3 of 4" loading="lazy">
     <img class="exo-slide" src="/images/exoskeleton/4.jpg" alt="Shoulder rehabilitation exoskeleton, photo 4 of 4" loading="lazy">
+  </div>
+  <button type="button" class="exo-arrow exo-prev" aria-label="Previous photo">&#10094;</button>
+  <button type="button" class="exo-arrow exo-next" aria-label="Next photo">&#10095;</button>
+  <div class="exo-thumbs"></div>
+  <div class="exo-lightbox" hidden>
+    <span class="exo-lightbox-close" aria-hidden="true">&times;</span>
+    <img class="exo-lightbox-img" src="" alt="">
+  </div>
+</div>
+
+<hr style="margin: 30px 0;">
+
+<h2 style="margin-top: 0; margin-bottom: 4px;">
+  3D-Printed Miniature Model for Human-Robot Shoulder Coupling &nbsp;<a href="https://ieeexplore.ieee.org/document/10458641" style="font-size: 0.6em; font-weight: normal;">Paper</a>
+</h2>
+<p style="margin-top: 0; margin-bottom: 4px;">
+  <em>January 2023 – September 2023</em> &nbsp;|&nbsp; Nazarbayev University &nbsp;|&nbsp; Astana, Kazakhstan
+</p>
+<p style="margin-top: 0; margin-bottom: 8px;">
+  <strong>Tools &amp; Technologies:</strong> SolidWorks, MATLAB, four-bar linkage kinematics, cable-driven parallel mechanisms, 3D printing
+</p>
+<ul style="margin-top: 0; margin-bottom: 8px;">
+  <li>Designed a 5-DOF miniature shoulder coupling mechanism combining a 2-DOF crank-rocker four-bar linkage for the shoulder girdle with a 3-DOF cable-driven parallel mechanism for the glenohumeral joint, modeling the shoulder's three rotational and two translational degrees of freedom.</li>
+  <li>Derived forward and inverse kinematics for both the four-bar linkage and the cable-driven mechanism, then validated the equations against a SolidWorks CAD model in MATLAB, matching cable lengths and joint angles to within 1–2&nbsp;mm and a few degrees.</li>
+  <li>Designed a pretension mechanism to eliminate cable slacking and derailment, and built an adjustable 3D-printed prototype with reconfigurable cable connection points for testing different coupling strategies.</li>
+  <li>This foundational prototype later informed the full-scale 5-DOF exoskeleton developed at CEMRR.</li>
+</ul>
+<div class="exo-gallery" style="margin-top: 10px;">
+  <div class="exo-track">
+    <img class="exo-slide" src="/images/mini_shoulder/prototype.jpg" alt="3D-printed miniature shoulder mechanism prototype, photo 1 of 3" loading="lazy">
+    <img class="exo-slide" src="/images/mini_shoulder/cas.jpg" alt="Miniature shoulder mechanism CAD joint detail, photo 2 of 3" loading="lazy">
+    <img class="exo-slide" src="/images/mini_shoulder/sketch.jpg" alt="Miniature shoulder mechanism CAD overview, photo 3 of 3" loading="lazy">
   </div>
   <button type="button" class="exo-arrow exo-prev" aria-label="Previous photo">&#10094;</button>
   <button type="button" class="exo-arrow exo-next" aria-label="Next photo">&#10095;</button>

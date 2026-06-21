@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "Проекты"
-description: "Проекты Азамата Турганбаева по робототехнике: тактильное исследование поверхности UR5, автоматизированная сборка, навигация TurtleBot3 и реабилитационный экзоскелет плечевого сустава с 5 степенями свободы."
+description: "Проекты Азамата Турганбаева по робототехнике: тактильное исследование поверхности UR5, автоматизированная сборка, навигация TurtleBot3, реабилитационный экзоскелет плечевого сустава с 5 степенями свободы и его 3D-печатный миниатюрный прототип-предшественник."
 permalink: /ru/projects/
 author_profile: true
 lang: ru
@@ -123,7 +123,7 @@ lang: ru
   Реабилитационный экзоскелет плечевого сустава &nbsp;<a href="https://cemrr.nu.edu.kz/ru/news/9" style="font-size: 0.6em; font-weight: normal;">Новости</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
-  <em>Апрель 2022 – Апрель 2025</em> &nbsp;|&nbsp; Назарбаев Университет &amp; <a href="https://cemrr.nu.edu.kz/en">CEMRR</a> &nbsp;|&nbsp; Астана, Казахстан
+  <em>Сентябрь 2023 – Апрель 2025</em> &nbsp;|&nbsp; Назарбаев Университет &amp; <a href="https://cemrr.nu.edu.kz/en">CEMRR</a> &nbsp;|&nbsp; Астана, Казахстан
 </p>
 <p style="margin-top: 0; margin-bottom: 8px;">
   <strong>Инструменты и технологии:</strong> САПР, 3D-печать, проектирование четырёхзвенных механизмов, кабельно-приводные параллельные механизмы, механическое прототипирование
@@ -140,6 +140,38 @@ lang: ru
     <img class="exo-slide" src="/images/exoskeleton/2.jpg" alt="Реабилитационный экзоскелет плечевого сустава, фото 2 из 4" loading="lazy">
     <img class="exo-slide" src="/images/exoskeleton/3.jpg" alt="Реабилитационный экзоскелет плечевого сустава, фото 3 из 4" loading="lazy">
     <img class="exo-slide" src="/images/exoskeleton/4.jpg" alt="Реабилитационный экзоскелет плечевого сустава, фото 4 из 4" loading="lazy">
+  </div>
+  <button type="button" class="exo-arrow exo-prev" aria-label="Предыдущее фото">&#10094;</button>
+  <button type="button" class="exo-arrow exo-next" aria-label="Следующее фото">&#10095;</button>
+  <div class="exo-thumbs"></div>
+  <div class="exo-lightbox" hidden>
+    <span class="exo-lightbox-close" aria-hidden="true">&times;</span>
+    <img class="exo-lightbox-img" src="" alt="">
+  </div>
+</div>
+
+<hr style="margin: 30px 0;">
+
+<h2 style="margin-top: 0; margin-bottom: 4px;">
+  3D-печатная миниатюрная модель сопряжения плечевого механизма человека и робота &nbsp;<a href="https://ieeexplore.ieee.org/document/10458641" style="font-size: 0.6em; font-weight: normal;">Статья</a>
+</h2>
+<p style="margin-top: 0; margin-bottom: 4px;">
+  <em>Январь 2023 – Сентябрь 2023</em> &nbsp;|&nbsp; Назарбаев Университет &nbsp;|&nbsp; Астана, Казахстан
+</p>
+<p style="margin-top: 0; margin-bottom: 8px;">
+  <strong>Инструменты и технологии:</strong> SolidWorks, MATLAB, кинематика четырёхзвенных механизмов, кабельно-приводные параллельные механизмы, 3D-печать
+</p>
+<ul style="margin-top: 0; margin-bottom: 8px;">
+  <li>Спроектировал 5-DOF миниатюрный механизм сопряжения плечевого сустава, объединяющий 2-DOF четырёхзвенный кривошипно-коромысловый механизм для плечевого пояса с 3-DOF кабельно-приводным параллельным механизмом для плечелопаточного сустава, моделируя три вращательные и две поступательные степени свободы плеча.</li>
+  <li>Вывел прямую и обратную кинематику как для четырёхзвенного механизма, так и для кабельно-приводного механизма, затем проверил уравнения относительно CAD-модели в SolidWorks с помощью MATLAB, добившись совпадения длин кабелей и углов суставов с точностью до 1–2&nbsp;мм и нескольких градусов.</li>
+  <li>Разработал механизм предварительного натяжения для устранения провисания и схода кабелей, а также собрал регулируемый 3D-печатный прототип с переставляемыми точками крепления кабелей для проверки различных стратегий сопряжения.</li>
+  <li>Этот базовый прототип позже стал основой для полноразмерного 5-DOF экзоскелета, разработанного в CEMRR.</li>
+</ul>
+<div class="exo-gallery" style="margin-top: 10px;">
+  <div class="exo-track">
+    <img class="exo-slide" src="/images/mini_shoulder/prototype.jpg" alt="3D-печатный прототип миниатюрного механизма плеча, фото 1 из 3" loading="lazy">
+    <img class="exo-slide" src="/images/mini_shoulder/cas.jpg" alt="Детализация суставов CAD-модели миниатюрного механизма плеча, фото 2 из 3" loading="lazy">
+    <img class="exo-slide" src="/images/mini_shoulder/sketch.jpg" alt="Обзор CAD-модели миниатюрного механизма плеча, фото 3 из 3" loading="lazy">
   </div>
   <button type="button" class="exo-arrow exo-prev" aria-label="Предыдущее фото">&#10094;</button>
   <button type="button" class="exo-arrow exo-next" aria-label="Следующее фото">&#10095;</button>
