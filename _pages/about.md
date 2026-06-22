@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a first year MS student in Robotics at the [University of Minnesota - Twin Cities](https://cse.umn.edu/mnri), studying on a [Bolashak Scholarship](https://bolashak.gov.kz/en/o-kompanii). I previously completed my BS in Robotics and Mechatronics at [Nazarbayev University](https://seds.nu.edu.kz/bachelor_in_re), where I designed a shoulder rehabilitation exoskeleton later developed into a full-scale device at [CEMRR](https://cemrr.nu.edu.kz/en). My research spans robot manipulation, perception, and human-centered robotics, see [Projects](/projects/) and [Experience](/experience/) for details.
+My research focuses on robot manipulation, perception, and human-centered robotics, spanning automated tactile exploration with a UR5 arm to a 5-DOF shoulder rehabilitation exoskeleton I designed and helped develop into a full-scale device. See [Projects](/projects/) and [Experience](/experience/) for details. I am currently a first year MS student in Robotics at the University of Minnesota - Twin Cities on a [Bolashak Scholarship](https://bolashak.gov.kz/en/o-kompanii), having previously completed my BS in Robotics and Mechatronics at Nazarbayev University.
 
 ## Skills
 
