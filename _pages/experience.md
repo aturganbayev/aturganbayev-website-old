@@ -17,7 +17,7 @@ author_profile: true
   <em>September 2025 – December 2026</em> &nbsp;|&nbsp; <a href="https://bolashak.gov.kz/en/o-kompanii">Bolashak Scholarship</a> &nbsp;|&nbsp; GPA: 3.89/4.00
 </p>
 <p style="margin-top: 0; margin-bottom: 10px;">
-  Coursework: Machine Learning Fundamentals, Robotics, Robot Vision
+  Coursework: Machine Learning Fundamentals, Robotics, Robot Vision, Introduction to Intelligent Robotics Systems, 3D Bioprinting
 </p>
 
 <h2 style="margin-top: 20px; margin-bottom: 4px;">
@@ -28,7 +28,7 @@ author_profile: true
 </p>
 <p style="margin-top: 0; margin-bottom: 10px;">
   Graduation Project: Shoulder Rehabilitation Robotic Exoskeleton<br>
-  Coursework: Electromechanical Systems, Mechanical Design with CAD
+  Coursework: Electromechanical Systems, Mechanical Design with CAD, Image Processing, Linear Control Theory, Microcontrollers, Robotics: Kinematics and Dynamics
 </p>
 
 <hr style="margin: 40px 0 30px 0;">
@@ -76,5 +76,5 @@ author_profile: true
 </p>
 <ul style="margin-top: 0; margin-bottom: 10px;">
   <li>Investigated biomechanical aspects of human-robot interaction to improve the efficacy of stroke recovery.</li>
-  <li>Built early 3D-printed prototypes that became the basis for the full-scale exoskeleton later developed at CEMRR.</li>
+  <li>Built early 3D-printed prototypes that became the basis for the full-scale exoskeleton later developed at CEMRR. See the <a href="/projects/#mini-shoulder">3D-Printed Miniature Model for Human-Robot Shoulder Coupling project</a> for implementation details.</li>
 </ul>

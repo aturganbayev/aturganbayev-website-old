@@ -1,12 +1,12 @@
 main:
-  - title: "Публикации"
-    url: /ru/publications/
-
   - title: "Образование и опыт"
     url: /ru/experience/
 
   - title: "Проекты"
     url: /ru/projects/
+
+  - title: "Публикации"
+    url: /ru/publications/
 
   - title: "Доклады"
     url: /ru/talks/

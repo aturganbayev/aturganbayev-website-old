@@ -152,7 +152,7 @@ lang: ru
 
 <hr style="margin: 30px 0;">
 
-<h2 style="margin-top: 0; margin-bottom: 4px;">
+<h2 id="mini-shoulder" style="margin-top: 0; margin-bottom: 4px;">
   3D-печатная миниатюрная модель сопряжения плечевого механизма человека и робота &nbsp;<a href="https://ieeexplore.ieee.org/document/10458641" style="font-size: 0.6em; font-weight: normal;">Статья</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">

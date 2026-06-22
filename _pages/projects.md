@@ -151,7 +151,7 @@ author_profile: true
 
 <hr style="margin: 30px 0;">
 
-<h2 style="margin-top: 0; margin-bottom: 4px;">
+<h2 id="mini-shoulder" style="margin-top: 0; margin-bottom: 4px;">
   3D-Printed Miniature Model for Human-Robot Shoulder Coupling &nbsp;<a href="https://ieeexplore.ieee.org/document/10458641" style="font-size: 0.6em; font-weight: normal;">Paper</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
