@@ -2,7 +2,7 @@
 
 permalink: /
 title: "Welcome"
-description: "Azamat Turganbayev — MS in Robotics student at the University of Minnesota, working on robot manipulation, robotic perception, and rehabilitation exoskeletons."
+description: "Azamat Turganbayev — Robotics Engineer pursuing an MS in Robotics at the University of Minnesota, working on robot manipulation, robotic perception, and rehabilitation exoskeletons."
 author_profile: true
 redirect_from: 
   - /about/
