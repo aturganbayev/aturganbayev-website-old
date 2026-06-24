@@ -56,7 +56,7 @@ author_profile: true
 <h1 style="margin-top: 0; margin-bottom: 20px;">Projects</h1>
 
 <h2 id="tactile-ur5" style="margin-top: 0; margin-bottom: 4px;">
-  Tactile Surface Exploration with UR5 &nbsp;<a href="https://github.com/aturganbayev/tactile_UR5" style="font-size: 0.6em; font-weight: normal;">GitHub</a>
+  Tactile Surface Exploration with UR5 &nbsp;<a href="https://github.com/aturganbayev/tactile_UR5" style="font-size: 0.8em; font-weight: normal;">GitHub</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>May 2026 – Present</em> &nbsp;|&nbsp; <a href="https://tact.nu.edu.kz/">Tactile Robotics Laboratory</a> &nbsp;|&nbsp; Astana, Kazakhstan
@@ -77,7 +77,7 @@ author_profile: true
 <hr style="margin: 30px 0;">
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  Automated Flashlight Assembly with UR5 &nbsp;<a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/ME5286_Flashlight_Assembly.pdf" style="font-size: 0.6em; font-weight: normal;">Report</a>
+  Automated Flashlight Assembly with UR5 &nbsp;<a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly" style="font-size: 0.8em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/ME5286_Flashlight_Assembly.pdf" style="font-size: 0.8em; font-weight: normal;">Report</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>March 2026</em> &nbsp;|&nbsp; ME 5286 – Robotics, University of Minnesota &nbsp;|&nbsp; Minneapolis, MN
@@ -98,7 +98,7 @@ author_profile: true
 <hr style="margin: 30px 0;">
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  TurtleBot3 Obstacle Avoidance &amp; ArUco Marker Navigation &nbsp;<a href="https://github.com/aturganbayev/CSCI5551-EE5271_Turtlebot_Navigation" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/CSCI5551_Final_Project.pdf" style="font-size: 0.6em; font-weight: normal;">Report</a>
+  TurtleBot3 Obstacle Avoidance &amp; ArUco Marker Navigation &nbsp;<a href="https://github.com/aturganbayev/CSCI5551-EE5271_Turtlebot_Navigation" style="font-size: 0.8em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/CSCI5551_Final_Project.pdf" style="font-size: 0.8em; font-weight: normal;">Report</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Fall 2025</em> &nbsp;|&nbsp; CSCI 5551 / EE 5271 Final Project, University of Minnesota &nbsp;|&nbsp; Minneapolis, MN
@@ -119,7 +119,7 @@ author_profile: true
 <hr style="margin: 30px 0;">
 
 <h2 id="exoskeleton" style="margin-top: 0; margin-bottom: 4px;">
-  Shoulder Rehabilitation Robotic Exoskeleton &nbsp;<a href="https://cemrr.nu.edu.kz/en/news/9" style="font-size: 0.6em; font-weight: normal;">News</a> &nbsp;<a href="https://www.youtube.com/watch?v=BF6AlbPFsx4&t=535s" style="font-size: 0.6em; font-weight: normal;">Interview</a>
+  Shoulder Rehabilitation Robotic Exoskeleton &nbsp;<a href="https://cemrr.nu.edu.kz/en/news/9" style="font-size: 0.8em; font-weight: normal;">News</a> &nbsp;<a href="https://www.youtube.com/watch?v=BF6AlbPFsx4&t=535s" style="font-size: 0.8em; font-weight: normal;">Interview</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>September 2023 – April 2025</em> &nbsp;|&nbsp; Nazarbayev University &amp; <a href="https://cemrr.nu.edu.kz/en">CEMRR</a> &nbsp;|&nbsp; Astana, Kazakhstan
@@ -152,7 +152,7 @@ author_profile: true
 <hr style="margin: 30px 0;">
 
 <h2 id="mini-shoulder" style="margin-top: 0; margin-bottom: 4px;">
-  3D-Printed Miniature Model for Human-Robot Shoulder Coupling &nbsp;<a href="https://ieeexplore.ieee.org/document/10458641" style="font-size: 0.6em; font-weight: normal;">Paper</a>
+  3D-Printed Miniature Model for Human-Robot Shoulder Coupling &nbsp;<a href="https://ieeexplore.ieee.org/document/10458641" style="font-size: 0.8em; font-weight: normal;">Paper</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>January 2023 – September 2023</em> &nbsp;|&nbsp; Nazarbayev University &nbsp;|&nbsp; Astana, Kazakhstan

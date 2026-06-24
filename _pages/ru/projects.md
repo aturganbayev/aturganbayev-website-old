@@ -57,7 +57,7 @@ lang: ru
 <h1 style="margin-top: 0; margin-bottom: 20px;">Проекты</h1>
 
 <h2 id="tactile-ur5" style="margin-top: 0; margin-bottom: 4px;">
-  Тактильное исследование поверхности с помощью UR5 &nbsp;<a href="https://github.com/aturganbayev/tactile_UR5" style="font-size: 0.6em; font-weight: normal;">GitHub</a>
+  Тактильное исследование поверхности с помощью UR5 &nbsp;<a href="https://github.com/aturganbayev/tactile_UR5" style="font-size: 0.8em; font-weight: normal;">GitHub</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Май 2026 – настоящее время</em> &nbsp;|&nbsp; <a href="https://tact.nu.edu.kz/">Лаборатория тактильной робототехники</a> &nbsp;|&nbsp; Астана, Казахстан
@@ -78,7 +78,7 @@ lang: ru
 <hr style="margin: 30px 0;">
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  Автоматизированная сборка фонарика с помощью UR5 &nbsp;<a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/ME5286_Flashlight_Assembly.pdf" style="font-size: 0.6em; font-weight: normal;">Отчёт</a>
+  Автоматизированная сборка фонарика с помощью UR5 &nbsp;<a href="https://github.com/aturganbayev/ME5286_UR5_Flashlight_Assembly#me5286-lab-4--ur5-flashlight-assembly" style="font-size: 0.8em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/ME5286_Flashlight_Assembly.pdf" style="font-size: 0.8em; font-weight: normal;">Отчёт</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Март 2026</em> &nbsp;|&nbsp; ME 5286 – Робототехника, Университет Миннесоты &nbsp;|&nbsp; Миннеаполис, MN
@@ -99,7 +99,7 @@ lang: ru
 <hr style="margin: 30px 0;">
 
 <h2 style="margin-top: 0; margin-bottom: 4px;">
-  Обход препятствий и навигация по маркерам ArUco на TurtleBot3 &nbsp;<a href="https://github.com/aturganbayev/CSCI5551-EE5271_Turtlebot_Navigation" style="font-size: 0.6em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/CSCI5551_Final_Project.pdf" style="font-size: 0.6em; font-weight: normal;">Отчёт</a>
+  Обход препятствий и навигация по маркерам ArUco на TurtleBot3 &nbsp;<a href="https://github.com/aturganbayev/CSCI5551-EE5271_Turtlebot_Navigation" style="font-size: 0.8em; font-weight: normal;">GitHub</a> &nbsp;<a href="/files/CSCI5551_Final_Project.pdf" style="font-size: 0.8em; font-weight: normal;">Отчёт</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Осень 2025</em> &nbsp;|&nbsp; Финальный проект CSCI 5551 / EE 5271, Университет Миннесоты &nbsp;|&nbsp; Миннеаполис, MN
@@ -120,7 +120,7 @@ lang: ru
 <hr style="margin: 30px 0;">
 
 <h2 id="exoskeleton" style="margin-top: 0; margin-bottom: 4px;">
-  Реабилитационный экзоскелет плечевого сустава &nbsp;<a href="https://cemrr.nu.edu.kz/ru/news/9" style="font-size: 0.6em; font-weight: normal;">Новости</a> &nbsp;<a href="https://www.youtube.com/watch?v=BF6AlbPFsx4&t=535s" style="font-size: 0.6em; font-weight: normal;">Интервью</a>
+  Реабилитационный экзоскелет плечевого сустава &nbsp;<a href="https://cemrr.nu.edu.kz/ru/news/9" style="font-size: 0.8em; font-weight: normal;">Новости</a> &nbsp;<a href="https://www.youtube.com/watch?v=BF6AlbPFsx4&t=535s" style="font-size: 0.8em; font-weight: normal;">Интервью</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Сентябрь 2023 – Апрель 2025</em> &nbsp;|&nbsp; Назарбаев Университет &amp; <a href="https://cemrr.nu.edu.kz/en">CEMRR</a> &nbsp;|&nbsp; Астана, Казахстан
@@ -153,7 +153,7 @@ lang: ru
 <hr style="margin: 30px 0;">
 
 <h2 id="mini-shoulder" style="margin-top: 0; margin-bottom: 4px;">
-  3D-печатная миниатюрная модель сопряжения плечевого механизма человека и робота &nbsp;<a href="https://ieeexplore.ieee.org/document/10458641" style="font-size: 0.6em; font-weight: normal;">Статья</a>
+  3D-печатная миниатюрная модель сопряжения плечевого механизма человека и робота &nbsp;<a href="https://ieeexplore.ieee.org/document/10458641" style="font-size: 0.8em; font-weight: normal;">Статья</a>
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
   <em>Январь 2023 – Сентябрь 2023</em> &nbsp;|&nbsp; Назарбаев Университет &nbsp;|&nbsp; Астана, Казахстан
