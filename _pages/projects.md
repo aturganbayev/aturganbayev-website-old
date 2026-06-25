@@ -67,7 +67,7 @@ author_profile: true
 <ul style="margin-top: 0; margin-bottom: 8px;">
   <li>Built an end-to-end pipeline for automated tactile exploration of a silicone cone with a UR5 collaborative arm, from CAD-derived surface geometry to executed touch sequences with synchronized contact-force recording on both simulated and physical robots.</li>
   <li>Sampled 3,000 surface points with normals from the cone STL using <code>trimesh</code>, then calibrated to the robot base frame with an axis-constrained, translation-only ICP fit (cone axis pinned vertical to avoid a spurious tilt from apex-clustered touch points), reaching ~2.2&nbsp;mm RMS alignment error.</li>
-  <li>Generated full-surface and 15-strip vertical touch-pose patterns with height-scaled orientation tilt (5°–15°) for tool clearance, then executed them via a custom Python UR5 IK solver (needed because the controller's single-seed IK fails to converge for poses spread around the cone), streaming URScript approach-press-retract sequences over a raw TCP socket.</li>
+  <li>Generated full-surface and 20-strip vertical touch-pose patterns (10 points per strip) with height-scaled orientation tilt (7°–14°) for tool clearance, then executed them via a custom Python UR5 IK solver (needed because the controller's single-seed IK fails to converge for poses spread around the cone), streaming a single URScript program over the robot's secondary client port while the real-time state stream kept broadcasting the TCP pose.</li>
   <li>Synchronized ATI Nano17 force readings with the UR5's real-time TCP pose stream via NI-DAQ, auto-detecting each press and logging its peak force and pose for offline analysis.</li>
 </ul>
 <div style="margin-top: 10px;">
