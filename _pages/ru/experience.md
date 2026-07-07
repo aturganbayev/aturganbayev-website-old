@@ -15,7 +15,7 @@ lang: ru
   Магистратура по робототехнике, <a href="https://twin-cities.umn.edu">Университет Миннесоты</a>, Твин-Ситис
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
-  <em>Сентябрь 2025 – Декабрь 2026</em> &nbsp;|&nbsp; <a href="https://bolashak.gov.kz/ru/o-kompanii">Стипендия Болашак</a> &nbsp;|&nbsp; GPA: 3.89/4.00
+  <em>Сентябрь 2025 – Декабрь 2026</em> &nbsp;|&nbsp; <a href="https://bolashak.gov.kz/ru/o-kompanii">Стипендия Болашак</a> &nbsp;|&nbsp; GPA: 3.82/4.00
 </p>
 <p style="margin-top: 0; margin-bottom: 10px;">
   Курсы: Основы машинного обучения, Робототехника, Компьютерное зрение, Введение в интеллектуальные робототехнические системы, 3D-биопечать

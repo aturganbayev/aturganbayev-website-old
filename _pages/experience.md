@@ -14,7 +14,7 @@ author_profile: true
   MS in Robotics, <a href="https://twin-cities.umn.edu">University of Minnesota</a>, Twin Cities
 </h2>
 <p style="margin-top: 0; margin-bottom: 4px;">
-  <em>September 2025 – December 2026</em> &nbsp;|&nbsp; <a href="https://bolashak.gov.kz/en/o-kompanii">Bolashak Scholarship</a> &nbsp;|&nbsp; GPA: 3.89/4.00
+  <em>September 2025 – December 2026</em> &nbsp;|&nbsp; <a href="https://bolashak.gov.kz/en/o-kompanii">Bolashak Scholarship</a> &nbsp;|&nbsp; GPA: 3.82/4.00
 </p>
 <p style="margin-top: 0; margin-bottom: 10px;">
   Coursework: Machine Learning Fundamentals, Robotics, Robot Vision, Introduction to Intelligent Robotics Systems, 3D Bioprinting
