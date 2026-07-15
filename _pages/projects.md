@@ -71,7 +71,7 @@ author_profile: true
   <li>Synchronized ATI Nano17 force readings with the UR5's real-time TCP pose stream via NI-DAQ, auto-detecting each press and logging its peak force and pose for offline analysis.</li>
 </ul>
 <div style="margin-top: 10px;">
-  <iframe width="720" height="405" src="https://www.youtube.com/embed/ED0S0Vk0w-s" title="Tactile Surface Exploration with UR5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
+  <iframe width="720" height="405" src="https://www.youtube.com/embed/YsXVEiOJwH0" title="Tactile Surface Exploration with UR5" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="max-width: 100%;"></iframe>
 </div>
 
 <hr style="margin: 30px 0;">
